@@ -1,0 +1,42 @@
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: J:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_host_behav xil_defaultlib.tb_host xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3813] value in initialization depends on signal 'counter_base' [E:/FPGA/VHDL/Lab Training/UART/UART_LED/UART_LED.srcs/sources_1/new/LED_Toggle.vhd:51]
+WARNING: [VRFC 10-3813] value in initialization depends on signal 'tx_byte' [E:/FPGA/VHDL/Lab Training/UART/UART_LED/UART_LED.srcs/sources_1/new/UART_TX.vhd:71]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package unisim.vcomponents
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling architecture behavioral of entity xil_defaultlib.ASCII_LUT [ascii_lut_default]
+Compiling architecture top_ascii_lut_0_0_arch of entity xil_defaultlib.top_ASCII_LUT_0_0 [top_ascii_lut_0_0_default]
+Compiling architecture behavioral of entity xil_defaultlib.LED_Toggle [led_toggle_default]
+Compiling architecture top_led_toggle_0_0_arch of entity xil_defaultlib.top_LED_Toggle_0_0 [top_led_toggle_0_0_default]
+Compiling architecture behavioral of entity xil_defaultlib.Pulse_Edges [pulse_edges_default]
+Compiling architecture top_pulse_edges_0_0_arch of entity xil_defaultlib.top_Pulse_Edges_0_0 [top_pulse_edges_0_0_default]
+Compiling architecture behavioral of entity xil_defaultlib.UART_CONTROLLER [uart_controller_default]
+Compiling architecture top_uart_controller_0_0_arch of entity xil_defaultlib.top_UART_CONTROLLER_0_0 [top_uart_controller_0_0_default]
+Compiling architecture behavioral of entity xil_defaultlib.UART_RX [uart_rx_default]
+Compiling architecture top_uart_rx_0_1_arch of entity xil_defaultlib.top_UART_RX_0_1 [top_uart_rx_0_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.UART_TX [uart_tx_default]
+Compiling architecture top_uart_tx_0_1_arch of entity xil_defaultlib.top_UART_TX_0_1 [top_uart_tx_0_1_default]
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=10.0,...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.top_clk_wiz_0_0_clk_wiz
+Compiling module xil_defaultlib.top_clk_wiz_0_0
+Compiling architecture structure of entity xil_defaultlib.top [top_default]
+Compiling architecture structure of entity xil_defaultlib.top_wrapper [top_wrapper_default]
+Compiling architecture behavioral of entity xil_defaultlib.UART_RX_Model [uart_rx_model_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_host
+Built simulation snapshot tb_host_behav

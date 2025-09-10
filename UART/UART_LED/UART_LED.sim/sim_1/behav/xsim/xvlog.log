@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FPGA/VHDL/Lab Training/UART/UART_LED/UART_LED.ip_user_files/bd/top/ip/top_clk_wiz_0_0/top_clk_wiz_0_0_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_clk_wiz_0_0_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FPGA/VHDL/Lab Training/UART/UART_LED/UART_LED.ip_user_files/bd/top/ip/top_clk_wiz_0_0/top_clk_wiz_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_clk_wiz_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FPGA/VHDL/Lab Training/UART/UART_LED/UART_LED.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

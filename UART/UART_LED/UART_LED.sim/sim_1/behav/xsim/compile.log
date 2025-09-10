@@ -1,0 +1,20 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FPGA/VHDL/Lab Training/UART/UART_LED/UART_LED.ip_user_files/bd/top/ip/top_clk_wiz_0_0/top_clk_wiz_0_0_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_clk_wiz_0_0_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FPGA/VHDL/Lab Training/UART/UART_LED/UART_LED.ip_user_files/bd/top/ip/top_clk_wiz_0_0/top_clk_wiz_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_clk_wiz_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FPGA/VHDL/Lab Training/UART/UART_LED/UART_LED.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/FPGA/VHDL/Lab Training/UART/UART_LED/UART_LED.srcs/sources_1/new/ASCII_LUT.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ASCII_LUT'
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/FPGA/VHDL/Lab Training/UART/UART_LED/UART_LED.srcs/sources_1/new/UART_RX.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'UART_RX'
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/FPGA/VHDL/Lab Training/UART/UART_LED/UART_LED.srcs/sources_1/new/UART_Controller.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'UART_CONTROLLER'
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/FPGA/VHDL/Lab Training/UART/UART_LED/UART_LED.srcs/sources_1/new/UART_TX.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'UART_TX'
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/FPGA/VHDL/Lab Training/UART/UART_LED/UART_LED.srcs/sources_1/new/LED_Toggle.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'LED_Toggle'
+ERROR: [VRFC 10-4982] syntax error near ')' [E:/FPGA/VHDL/Lab Training/UART/UART_LED/UART_LED.srcs/sources_1/new/LED_Toggle.vhd:56]
+ERROR: [VRFC 10-4982] syntax error near 'if' [E:/FPGA/VHDL/Lab Training/UART/UART_LED/UART_LED.srcs/sources_1/new/LED_Toggle.vhd:65]
+ERROR: [VRFC 10-9458] unit 'behavioral' is ignored due to previous errors [E:/FPGA/VHDL/Lab Training/UART/UART_LED/UART_LED.srcs/sources_1/new/LED_Toggle.vhd:30]
+INFO: [VRFC 10-8704] VHDL file 'E:/FPGA/VHDL/Lab Training/UART/UART_LED/UART_LED.srcs/sources_1/new/LED_Toggle.vhd' is ignored due to errors

@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_host_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_host" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="2,373.333334 us"></ZoomStartTime>
+      <ZoomEndTime time="5,533.333335 us"></ZoomEndTime>
+      <Cursor1Time time="2,900.000000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="301"></NameColumnWidth>
+      <ValueColumnWidth column_width="98"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="9" />
+   <wvobject fp_name="group5" type="group">
+      <obj_property name="label">TX</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group12" type="group">
+      <obj_property name="label">RX</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="group36" type="group">
+      <obj_property name="label">DUT</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_host/DUT/RsRx" type="logic">
+         <obj_property name="ElementShortName">RsRx</obj_property>
+         <obj_property name="ObjectShortName">RsRx</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_host/DUT/RsTx" type="logic">
+         <obj_property name="ElementShortName">RsTx</obj_property>
+         <obj_property name="ObjectShortName">RsTx</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_host/DUT/led" type="array">
+         <obj_property name="ElementShortName">led[7:0]</obj_property>
+         <obj_property name="ObjectShortName">led[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_host/DUT/reset" type="logic">
+         <obj_property name="ElementShortName">reset</obj_property>
+         <obj_property name="ObjectShortName">reset</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_host/DUT/sys_clock" type="logic">
+         <obj_property name="ElementShortName">sys_clock</obj_property>
+         <obj_property name="ObjectShortName">sys_clock</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group41" type="group">
+      <obj_property name="label">TX_CONV</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_host/TX_CONV/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_host/TX_CONV/tx_byte" type="array">
+         <obj_property name="ElementShortName">tx_byte[7:0]</obj_property>
+         <obj_property name="ObjectShortName">tx_byte[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_host/TX_CONV/tx_byte_ready" type="logic">
+         <obj_property name="ElementShortName">tx_byte_ready</obj_property>
+         <obj_property name="ObjectShortName">tx_byte_ready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_host/TX_CONV/tx_serial" type="logic">
+         <obj_property name="ElementShortName">tx_serial</obj_property>
+         <obj_property name="ObjectShortName">tx_serial</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_host/TX_CONV/tx_ready" type="logic">
+         <obj_property name="ElementShortName">tx_ready</obj_property>
+         <obj_property name="ObjectShortName">tx_ready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_host/TX_CONV/busy" type="logic">
+         <obj_property name="ElementShortName">busy</obj_property>
+         <obj_property name="ObjectShortName">busy</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_host/TX_CONV/bit_time_counter" type="other">
+         <obj_property name="ElementShortName">bit_time_counter</obj_property>
+         <obj_property name="ObjectShortName">bit_time_counter</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_host/TX_CONV/baud_tick" type="logic">
+         <obj_property name="ElementShortName">baud_tick</obj_property>
+         <obj_property name="ObjectShortName">baud_tick</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_host/TX_CONV/full_frame" type="array">
+         <obj_property name="ElementShortName">full_frame[9:0]</obj_property>
+         <obj_property name="ObjectShortName">full_frame[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_host/TX_CONV/current_index" type="other">
+         <obj_property name="ElementShortName">current_index</obj_property>
+         <obj_property name="ObjectShortName">current_index</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_host/TX_CONV/uart_tx_out" type="logic">
+         <obj_property name="ElementShortName">uart_tx_out</obj_property>
+         <obj_property name="ObjectShortName">uart_tx_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_host/TX_CONV/s_busy" type="logic">
+         <obj_property name="ElementShortName">s_busy</obj_property>
+         <obj_property name="ObjectShortName">s_busy</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_host/TX_CONV/s_ready" type="logic">
+         <obj_property name="ElementShortName">s_ready</obj_property>
+         <obj_property name="ObjectShortName">s_ready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_host/TX_CONV/state" type="other">
+         <obj_property name="ElementShortName">state</obj_property>
+         <obj_property name="ObjectShortName">state</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_host/TX_CONV/baud_rate" type="other">
+         <obj_property name="ElementShortName">baud_rate</obj_property>
+         <obj_property name="ObjectShortName">baud_rate</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_host/TX_CONV/clock_rate" type="other">
+         <obj_property name="ElementShortName">clock_rate</obj_property>
+         <obj_property name="ObjectShortName">clock_rate</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_host/TX_CONV/bit_time_max_count" type="other">
+         <obj_property name="ElementShortName">bit_time_max_count</obj_property>
+         <obj_property name="ObjectShortName">bit_time_max_count</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group59" type="group">
+      <obj_property name="label">RX MODEL</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_host/RX_DATA/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_host/RX_DATA/TX_DATA" type="array">
+         <obj_property name="ElementShortName">TX_DATA[7:0]</obj_property>
+         <obj_property name="ObjectShortName">TX_DATA[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_host/RX_DATA/TX_STROBE" type="logic">
+         <obj_property name="ElementShortName">TX_STROBE</obj_property>
+         <obj_property name="ObjectShortName">TX_STROBE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_host/RX_DATA/BAUD_RATE" type="other">
+         <obj_property name="ElementShortName">BAUD_RATE</obj_property>
+         <obj_property name="ObjectShortName">BAUD_RATE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_host/RX_DATA/CLK_FREQ" type="other">
+         <obj_property name="ElementShortName">CLK_FREQ</obj_property>
+         <obj_property name="ObjectShortName">CLK_FREQ</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_host/RX_DATA/BIT_PERIOD_US" type="other">
+         <obj_property name="ElementShortName">BIT_PERIOD_US</obj_property>
+         <obj_property name="ObjectShortName">BIT_PERIOD_US</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_host/RX_DATA/BYTE_PERIOD_US" type="other">
+         <obj_property name="ElementShortName">BYTE_PERIOD_US</obj_property>
+         <obj_property name="ObjectShortName">BYTE_PERIOD_US</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_host/RX_DATA/STROBE_WIDTH_NS" type="other">
+         <obj_property name="ElementShortName">STROBE_WIDTH_NS</obj_property>
+         <obj_property name="ObjectShortName">STROBE_WIDTH_NS</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_host/RX_DATA/INTER_BYTE_DELAY" type="other">
+         <obj_property name="ElementShortName">INTER_BYTE_DELAY</obj_property>
+         <obj_property name="ObjectShortName">INTER_BYTE_DELAY</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group69" type="group">
+      <obj_property name="label">ASCII LUT</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_host/DUT/top_i/ASCII_LUT_0/U0/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_host/DUT/top_i/ASCII_LUT_0/U0/reset" type="logic">
+         <obj_property name="ElementShortName">reset</obj_property>
+         <obj_property name="ObjectShortName">reset</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_host/DUT/top_i/ASCII_LUT_0/U0/RX_BYTE" type="array">
+         <obj_property name="ElementShortName">RX_BYTE[7:0]</obj_property>
+         <obj_property name="ObjectShortName">RX_BYTE[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_host/DUT/top_i/ASCII_LUT_0/U0/RX_BYTE_READY" type="logic">
+         <obj_property name="ElementShortName">RX_BYTE_READY</obj_property>
+         <obj_property name="ObjectShortName">RX_BYTE_READY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_host/DUT/top_i/ASCII_LUT_0/U0/TX_BYTE" type="array">
+         <obj_property name="ElementShortName">TX_BYTE[7:0]</obj_property>
+         <obj_property name="ObjectShortName">TX_BYTE[7:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FF0080</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_host/DUT/top_i/ASCII_LUT_0/U0/TX_BYTE_READY" type="logic">
+         <obj_property name="ElementShortName">TX_BYTE_READY</obj_property>
+         <obj_property name="ObjectShortName">TX_BYTE_READY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_host/DUT/top_i/ASCII_LUT_0/U0/RX_BYTE_OUT" type="array">
+         <obj_property name="ElementShortName">RX_BYTE_OUT[7:0]</obj_property>
+         <obj_property name="ObjectShortName">RX_BYTE_OUT[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_host/DUT/top_i/ASCII_LUT_0/U0/RX_BYTE_OUT_READY" type="logic">
+         <obj_property name="ElementShortName">RX_BYTE_OUT_READY</obj_property>
+         <obj_property name="ObjectShortName">RX_BYTE_OUT_READY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_host/DUT/top_i/ASCII_LUT_0/U0/TX_BYTE_OUT" type="array">
+         <obj_property name="ElementShortName">TX_BYTE_OUT[7:0]</obj_property>
+         <obj_property name="ObjectShortName">TX_BYTE_OUT[7:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_host/DUT/top_i/ASCII_LUT_0/U0/TX_BYTE_OUT_READY" type="logic">
+         <obj_property name="ElementShortName">TX_BYTE_OUT_READY</obj_property>
+         <obj_property name="ObjectShortName">TX_BYTE_OUT_READY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_host/DUT/top_i/ASCII_LUT_0/U0/ASCII_TYPE" type="array">
+         <obj_property name="ElementShortName">ASCII_TYPE[2:0]</obj_property>
+         <obj_property name="ObjectShortName">ASCII_TYPE[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_host/DUT/top_i/ASCII_LUT_0/U0/S_RX_BYTE_OUT" type="array">
+         <obj_property name="ElementShortName">S_RX_BYTE_OUT[7:0]</obj_property>
+         <obj_property name="ObjectShortName">S_RX_BYTE_OUT[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_host/DUT/top_i/ASCII_LUT_0/U0/S_TX_BYTE_OUT" type="array">
+         <obj_property name="ElementShortName">S_TX_BYTE_OUT[7:0]</obj_property>
+         <obj_property name="ObjectShortName">S_TX_BYTE_OUT[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_host/DUT/top_i/ASCII_LUT_0/U0/NO_CHAR" type="array">
+         <obj_property name="ElementShortName">NO_CHAR[2:0]</obj_property>
+         <obj_property name="ObjectShortName">NO_CHAR[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_host/DUT/top_i/ASCII_LUT_0/U0/DATA" type="array">
+         <obj_property name="ElementShortName">DATA[2:0]</obj_property>
+         <obj_property name="ObjectShortName">DATA[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_host/DUT/top_i/ASCII_LUT_0/U0/READ" type="array">
+         <obj_property name="ElementShortName">READ[2:0]</obj_property>
+         <obj_property name="ObjectShortName">READ[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_host/DUT/top_i/ASCII_LUT_0/U0/WRITE" type="array">
+         <obj_property name="ElementShortName">WRITE[2:0]</obj_property>
+         <obj_property name="ObjectShortName">WRITE[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_host/DUT/top_i/ASCII_LUT_0/U0/SPACE" type="array">
+         <obj_property name="ElementShortName">SPACE[2:0]</obj_property>
+         <obj_property name="ObjectShortName">SPACE[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_host/DUT/top_i/ASCII_LUT_0/U0/CARRIAGE_RETURN" type="array">
+         <obj_property name="ElementShortName">CARRIAGE_RETURN[2:0]</obj_property>
+         <obj_property name="ObjectShortName">CARRIAGE_RETURN[2:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group88" type="group">
+      <obj_property name="label">UART CONTROLLER</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_host/DUT/top_i/UART_CONTROLLER_0/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_host/DUT/top_i/UART_CONTROLLER_0/RX_BYTE" type="array">
+         <obj_property name="ElementShortName">RX_BYTE[7:0]</obj_property>
+         <obj_property name="ObjectShortName">RX_BYTE[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_host/DUT/top_i/UART_CONTROLLER_0/RX_BYTE_READY" type="logic">
+         <obj_property name="ElementShortName">RX_BYTE_READY</obj_property>
+         <obj_property name="ObjectShortName">RX_BYTE_READY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_host/DUT/top_i/UART_CONTROLLER_0/ASCII_TYPE" type="array">
+         <obj_property name="ElementShortName">ASCII_TYPE[2:0]</obj_property>
+         <obj_property name="ObjectShortName">ASCII_TYPE[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_host/DUT/top_i/UART_CONTROLLER_0/RX_DATA_FULL" type="array">
+         <obj_property name="ElementShortName">RX_DATA_FULL[31:0]</obj_property>
+         <obj_property name="ObjectShortName">RX_DATA_FULL[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_host/DUT/top_i/UART_CONTROLLER_0/RX_DATA_READY" type="logic">
+         <obj_property name="ElementShortName">RX_DATA_READY</obj_property>
+         <obj_property name="ObjectShortName">RX_DATA_READY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_host/DUT/top_i/UART_CONTROLLER_0/WE" type="logic">
+         <obj_property name="ElementShortName">WE</obj_property>
+         <obj_property name="ObjectShortName">WE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_host/DUT/top_i/UART_CONTROLLER_0/TX_DATA_FULL" type="array">
+         <obj_property name="ElementShortName">TX_DATA_FULL[31:0]</obj_property>
+         <obj_property name="ObjectShortName">TX_DATA_FULL[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_host/DUT/top_i/UART_CONTROLLER_0/TX_DATA_READY" type="logic">
+         <obj_property name="ElementShortName">TX_DATA_READY</obj_property>
+         <obj_property name="ObjectShortName">TX_DATA_READY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_host/DUT/top_i/UART_CONTROLLER_0/TX_BYTE_SEND" type="logic">
+         <obj_property name="ElementShortName">TX_BYTE_SEND</obj_property>
+         <obj_property name="ObjectShortName">TX_BYTE_SEND</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_host/DUT/top_i/UART_CONTROLLER_0/TX_BYTE" type="array">
+         <obj_property name="ElementShortName">TX_BYTE[7:0]</obj_property>
+         <obj_property name="ObjectShortName">TX_BYTE[7:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_host/DUT/top_i/UART_CONTROLLER_0/TX_BYTE_READY" type="logic">
+         <obj_property name="ElementShortName">TX_BYTE_READY</obj_property>
+         <obj_property name="ObjectShortName">TX_BYTE_READY</obj_property>
+      </wvobject>
+      <wvobject fp_name="group96" type="group">
+         <obj_property name="label">signals</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/tb_host/DUT/top_i/UART_CONTROLLER_0/U0/state" type="other">
+            <obj_property name="ElementShortName">state</obj_property>
+            <obj_property name="ObjectShortName">state</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_host/DUT/top_i/UART_CONTROLLER_0/U0/data_buildup" type="array">
+            <obj_property name="ElementShortName">data_buildup[31:0]</obj_property>
+            <obj_property name="ObjectShortName">data_buildup[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_host/DUT/top_i/UART_CONTROLLER_0/U0/write_enabled" type="logic">
+            <obj_property name="ElementShortName">write_enabled</obj_property>
+            <obj_property name="ObjectShortName">write_enabled</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_host/DUT/top_i/UART_CONTROLLER_0/U0/byte_counter" type="other">
+            <obj_property name="ElementShortName">byte_counter</obj_property>
+            <obj_property name="ObjectShortName">byte_counter</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_host/DUT/top_i/UART_CONTROLLER_0/U0/RX_nibble" type="array">
+            <obj_property name="ElementShortName">RX_nibble[3:0]</obj_property>
+            <obj_property name="ObjectShortName">RX_nibble[3:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_host/DUT/top_i/UART_CONTROLLER_0/U0/RX_address" type="array">
+            <obj_property name="ElementShortName">RX_address[15:0]</obj_property>
+            <obj_property name="ObjectShortName">RX_address[15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_host/DUT/top_i/UART_CONTROLLER_0/U0/RX_data" type="array">
+            <obj_property name="ElementShortName">RX_data[15:0]</obj_property>
+            <obj_property name="ObjectShortName">RX_data[15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_host/DUT/top_i/UART_CONTROLLER_0/U0/D_ACK" type="logic">
+            <obj_property name="ElementShortName">D_ACK</obj_property>
+            <obj_property name="ObjectShortName">D_ACK</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_host/DUT/top_i/UART_CONTROLLER_0/U0/TX_BYTE_OUT" type="array">
+            <obj_property name="ElementShortName">TX_BYTE_OUT[7:0]</obj_property>
+            <obj_property name="ObjectShortName">TX_BYTE_OUT[7:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_host/DUT/top_i/UART_CONTROLLER_0/U0/TX_DATA_HOLD" type="array">
+            <obj_property name="ElementShortName">TX_DATA_HOLD[31:0]</obj_property>
+            <obj_property name="ObjectShortName">TX_DATA_HOLD[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_host/DUT/top_i/UART_CONTROLLER_0/U0/TX_DATA_LATCH" type="array">
+            <obj_property name="ElementShortName">TX_DATA_LATCH[31:0]</obj_property>
+            <obj_property name="ObjectShortName">TX_DATA_LATCH[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_host/DUT/top_i/UART_CONTROLLER_0/U0/TX_enable" type="logic">
+            <obj_property name="ElementShortName">TX_enable</obj_property>
+            <obj_property name="ObjectShortName">TX_enable</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_host/DUT/top_i/UART_CONTROLLER_0/U0/NO_CHAR" type="array">
+            <obj_property name="ElementShortName">NO_CHAR[2:0]</obj_property>
+            <obj_property name="ObjectShortName">NO_CHAR[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_host/DUT/top_i/UART_CONTROLLER_0/U0/DATA" type="array">
+            <obj_property name="ElementShortName">DATA[2:0]</obj_property>
+            <obj_property name="ObjectShortName">DATA[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_host/DUT/top_i/UART_CONTROLLER_0/U0/READ" type="array">
+            <obj_property name="ElementShortName">READ[2:0]</obj_property>
+            <obj_property name="ObjectShortName">READ[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_host/DUT/top_i/UART_CONTROLLER_0/U0/WRITE" type="array">
+            <obj_property name="ElementShortName">WRITE[2:0]</obj_property>
+            <obj_property name="ObjectShortName">WRITE[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_host/DUT/top_i/UART_CONTROLLER_0/U0/SPACE" type="array">
+            <obj_property name="ElementShortName">SPACE[2:0]</obj_property>
+            <obj_property name="ObjectShortName">SPACE[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_host/DUT/top_i/UART_CONTROLLER_0/U0/CARRIAGE_RETURN" type="array">
+            <obj_property name="ElementShortName">CARRIAGE_RETURN[2:0]</obj_property>
+            <obj_property name="ObjectShortName">CARRIAGE_RETURN[2:0]</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group78" type="group">
+      <obj_property name="label">EDGE</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_host/DUT/top_i/Pulse_Edges_0/U0/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_host/DUT/top_i/Pulse_Edges_0/U0/source" type="logic">
+         <obj_property name="ElementShortName">source</obj_property>
+         <obj_property name="ObjectShortName">source</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_host/DUT/top_i/Pulse_Edges_0/U0/edge_rising" type="logic">
+         <obj_property name="ElementShortName">edge_rising</obj_property>
+         <obj_property name="ObjectShortName">edge_rising</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_host/DUT/top_i/Pulse_Edges_0/U0/edge_falling" type="logic">
+         <obj_property name="ElementShortName">edge_falling</obj_property>
+         <obj_property name="ObjectShortName">edge_falling</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_host/DUT/top_i/Pulse_Edges_0/U0/source_prev" type="logic">
+         <obj_property name="ElementShortName">source_prev</obj_property>
+         <obj_property name="ObjectShortName">source_prev</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group103" type="group">
+      <obj_property name="label">LED TOGGLE</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_host/DUT/top_i/LED_Toggle_0/clock_100" type="logic">
+         <obj_property name="ElementShortName">clock_100</obj_property>
+         <obj_property name="ObjectShortName">clock_100</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_host/DUT/top_i/LED_Toggle_0/RX_data" type="array">
+         <obj_property name="ElementShortName">RX_data[31:0]</obj_property>
+         <obj_property name="ObjectShortName">RX_data[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_host/DUT/top_i/LED_Toggle_0/RX_data_ready" type="logic">
+         <obj_property name="ElementShortName">RX_data_ready</obj_property>
+         <obj_property name="ObjectShortName">RX_data_ready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_host/DUT/top_i/LED_Toggle_0/WE" type="logic">
+         <obj_property name="ElementShortName">WE</obj_property>
+         <obj_property name="ObjectShortName">WE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_host/DUT/top_i/LED_Toggle_0/READ_DATA_OUT" type="array">
+         <obj_property name="ElementShortName">READ_DATA_OUT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">READ_DATA_OUT[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_host/DUT/top_i/LED_Toggle_0/READ_DATA_READY" type="logic">
+         <obj_property name="ElementShortName">READ_DATA_READY</obj_property>
+         <obj_property name="ObjectShortName">READ_DATA_READY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_host/DUT/top_i/LED_Toggle_0/led" type="array">
+         <obj_property name="ElementShortName">led[7:0]</obj_property>
+         <obj_property name="ObjectShortName">led[7:0]</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+      <wvobject fp_name="group111" type="group">
+         <obj_property name="label">SIGNALS</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/tb_host/DUT/top_i/LED_Toggle_0/U0/counter_base" type="other">
+            <obj_property name="ElementShortName">counter_base</obj_property>
+            <obj_property name="ObjectShortName">counter_base</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_host/DUT/top_i/LED_Toggle_0/U0/multiplier_stored" type="array">
+            <obj_property name="ElementShortName">multiplier_stored[15:0]</obj_property>
+            <obj_property name="ObjectShortName">multiplier_stored[15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_host/DUT/top_i/LED_Toggle_0/U0/counter_max" type="other">
+            <obj_property name="ElementShortName">counter_max</obj_property>
+            <obj_property name="ObjectShortName">counter_max</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_host/DUT/top_i/LED_Toggle_0/U0/led_pwm_stored" type="array">
+            <obj_property name="ElementShortName">led_pwm_stored[15:0]</obj_property>
+            <obj_property name="ObjectShortName">led_pwm_stored[15:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_host/DUT/top_i/LED_Toggle_0/U0/led_pwm_percent" type="other">
+            <obj_property name="ElementShortName">led_pwm_percent</obj_property>
+            <obj_property name="ObjectShortName">led_pwm_percent</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_host/DUT/top_i/LED_Toggle_0/U0/counter" type="other">
+            <obj_property name="ElementShortName">counter</obj_property>
+            <obj_property name="ObjectShortName">counter</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_host/DUT/top_i/LED_Toggle_0/U0/LED_ON" type="logic">
+            <obj_property name="ElementShortName">LED_ON</obj_property>
+            <obj_property name="ObjectShortName">LED_ON</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_host/DUT/top_i/LED_Toggle_0/U0/led_enable" type="array">
+            <obj_property name="ElementShortName">led_enable[15:0]</obj_property>
+            <obj_property name="ObjectShortName">led_enable[15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_host/DUT/top_i/LED_Toggle_0/U0/data_out" type="array">
+            <obj_property name="ElementShortName">data_out[31:0]</obj_property>
+            <obj_property name="ObjectShortName">data_out[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_host/DUT/top_i/LED_Toggle_0/U0/error_message" type="array">
+            <obj_property name="ElementShortName">error_message[31:0]</obj_property>
+            <obj_property name="ObjectShortName">error_message[31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+</wave_config>
